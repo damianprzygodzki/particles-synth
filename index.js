@@ -1,4 +1,4 @@
-window.onload = function() {
+(function() {
     var canvas = document.createElement("canvas");
     var context = canvas.getContext("2d");
     var audioContext = new AudioContext();
@@ -146,4 +146,4 @@ window.onload = function() {
             drawLines(particles);
         }
     }, 30);
-};
+}());
